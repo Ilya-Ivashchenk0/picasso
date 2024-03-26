@@ -6,7 +6,6 @@
 
 https://github.com/Ilya-Ivashchenk0/picasso
 
-
 ## Ссылка на деплой проекта
 
 https://picasso.test-tasks.ru

@@ -31,22 +31,18 @@ export const HomePage: React.FC = () => {
 
   if (isLoading) {
     return (
-      <div className='home-page'>
+      <div className="home-page">
         <p>Loading...</p>
       </div>
     )
   }
 
   return (
-    <div className='home-page'>
+    <div className="home-page">
       <h1 className="home-page__heading">Posts</h1>
       <PostList posts={data} />
       {!isLoadingMorePosts && (
-        <button
-          type="button"
-          onClick={handleButtonClick}
-          className="home-page__button"
-        >
+        <button type="button" onClick={handleButtonClick} className="home-page__button">
           More
         </button>
       )}

@@ -15,21 +15,23 @@ export const PostPage: React.FC = () => {
 
   if (isLoading) {
     return (
-      <div className='post-page'>
+      <div className="post-page">
         <p>Загрузка...</p>
       </div>
     )
   }
 
   return (
-    <div className='post-page'>
-      <h1 className='page__number'>{id}</h1>
-      <div className='post-page__info-wrapper'>
-        <h2 className='post-page__title'>{data?.title}</h2>
-        <p className='post-page__description'>{data?.body}</p>
-        <p className='post-page__create'>{data?.userId}</p>
+    <div className="post-page">
+      <h1 className="page__number">{id}</h1>
+      <div className="post-page__info-wrapper">
+        <h2 className="post-page__title">{data?.title}</h2>
+        <p className="post-page__description">{data?.body}</p>
+        <p className="post-page__create">{data?.userId}</p>
       </div>
-      <button className='post-page__button' type='button' onClick={goBack}>← Back</button>
+      <button className="post-page__button" type="button" onClick={goBack}>
+        ← Back
+      </button>
     </div>
   )
 }
