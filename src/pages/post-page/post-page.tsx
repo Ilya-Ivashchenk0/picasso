@@ -14,7 +14,11 @@ export const PostPage: React.FC = () => {
   }
 
   if (isLoading) {
-    return <p>Загрузка...</p>
+    return (
+      <div className='post-page'>
+        <p>Загрузка...</p>
+      </div>
+    )
   }
 
   return (

@@ -4,7 +4,7 @@
 
 ## Ссылка на репозитории
 
-Frontend https://github.com/Ilya-Ivashchenk0/build-store-test-front
+https://github.com/Ilya-Ivashchenk0/picasso
 
 
 ## Ссылка на деплой проекта

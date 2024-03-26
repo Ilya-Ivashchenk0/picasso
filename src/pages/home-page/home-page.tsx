@@ -30,7 +30,11 @@ export const HomePage: React.FC = () => {
   }, [windowWidth])
 
   if (isLoading) {
-    return <p>Загрузка...</p>
+    return (
+      <div className='home-page'>
+        <p>Загрузка...</p>
+      </div>
+    )
   }
 
   return (
