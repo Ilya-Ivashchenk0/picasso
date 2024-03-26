@@ -2,3 +2,8 @@
   margin: 0;
   padding: 0;
 }
+
+.app__page {
+  margin: 0;
+  padding: 70px 0;
+}

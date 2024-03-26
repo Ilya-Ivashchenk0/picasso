@@ -1,0 +1,61 @@
+.post-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page__number {
+  color: var(--dark-color);
+}
+
+.page__number::before {
+  padding-right: 10px;
+  content: 'Пост №';
+}
+
+.post-page__info-wrapper {
+  max-width: 90%;
+  margin: 40px 0;
+  padding: 20px 10px;
+  background-color: var(--white-color);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.post-page__title {
+  font-size: 32px;
+  text-align: center;
+}
+
+.post-page__description {
+  color: var(--dark-color);
+}
+
+.post-page__create {
+  color: var(--orange-color);
+}
+
+.post-page__create::before {
+  padding-right: 10px;
+  content: 'Создано пользователем с id:';
+  color: var(--black-color);
+}
+
+.post-page__button {
+  width: 150px;
+  height: 40px;
+  background-color: var(--dark-color);
+  border: none;
+  border-radius: 10px;
+  color: var(--orange-color);
+  font-weight: bold;
+  transition: opacity 0.7s ease-in-out;
+}
+
+.post-page__button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}

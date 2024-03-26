@@ -1,5 +1,9 @@
 :root {
-
+  --white-color: rgba(255, 255, 255, 1);
+  --black-color: rgba(0, 0, 0, 1);
+  --dark-color: rgba(33, 36, 61, 1);
+  --blue-slate-color: rgba(237, 247, 250, 1);
+  --orange-color: rgba(255, 100, 100, 1);
 }
 
 * {
@@ -8,11 +12,11 @@
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--blue-slate-color);
+  width: 100%;
+  min-height: 100vh;
 }
-
