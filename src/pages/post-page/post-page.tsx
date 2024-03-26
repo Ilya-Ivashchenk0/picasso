@@ -29,7 +29,7 @@ export const PostPage: React.FC = () => {
         <p className='post-page__description'>{data?.body}</p>
         <p className='post-page__create'>{data?.userId}</p>
       </div>
-      <button className='post-page__button' type='button' onClick={goBack}>← Назад</button>
+      <button className='post-page__button' type='button' onClick={goBack}>← Back</button>
     </div>
   )
 }

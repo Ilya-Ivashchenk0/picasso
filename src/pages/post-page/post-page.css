@@ -11,7 +11,7 @@
 
 .page__number::before {
   padding-right: 10px;
-  content: 'Пост №';
+  content: 'Post №';
 }
 
 .post-page__info-wrapper {
@@ -40,7 +40,7 @@
 
 .post-page__create::before {
   padding-right: 10px;
-  content: 'Создано пользователем с id:';
+  content: 'Created by user with id:';
   color: var(--black-color);
 }
 

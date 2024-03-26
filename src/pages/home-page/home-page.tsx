@@ -32,14 +32,14 @@ export const HomePage: React.FC = () => {
   if (isLoading) {
     return (
       <div className='home-page'>
-        <p>Загрузка...</p>
+        <p>Loading...</p>
       </div>
     )
   }
 
   return (
     <div className='home-page'>
-      <h1 className="home-page__heading">Посты</h1>
+      <h1 className="home-page__heading">Posts</h1>
       <PostList posts={data} />
       {!isLoadingMorePosts && (
         <button
@@ -47,10 +47,10 @@ export const HomePage: React.FC = () => {
           onClick={handleButtonClick}
           className="home-page__button"
         >
-          Еще
+          More
         </button>
       )}
-      {isLoadingMorePosts && <p>Загрузка...</p>}
+      {isLoadingMorePosts && <p>Loading...</p>}
     </div>
   )
 }
